@@ -1,16 +1,50 @@
+@import '../scss/root.scss';
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 header {
     .artGallery {
+        display: flex;
+
         .darkSide {
             width: 450px;
             height: 799px;
             flex-shrink: 0;
-        }
-        .artGalleryTitle{
-
+            background-color: $almostblack;
         }
 
-        .buttonHeader{
-            
+        .artGalleryTitle {
+            position: absolute;
+            top: 140px;
+            left: 150px;
+            width: 514px;
+            color: $white;
+            font-feature-settings: 'clig' off, 'liga' off;
+
+            /* Heading (XL) */
+            font-family: Big Shoulders Display;
+            font-size: 96px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 88px;
+            /* 91.667% */
+            text-transform: uppercase;
+        }
+
+        .buttonHeader {}
+
+        .imgDivHeader {
+            width: 540px;
+            height: 800px;
+            flex-shrink: 0;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
         }
     }
 }
