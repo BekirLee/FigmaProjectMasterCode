@@ -8,6 +8,7 @@
 header {
     .artGallery {
         display: flex;
+        position: relative;
 
         .darkSide {
             width: 450px;
@@ -19,8 +20,8 @@ header {
         .artGalleryTitle {
             position: absolute;
             top: 140px;
-            left: 150px;
-            width: 514px;
+            left: 200px;
+            width: 390px;
             color: $white;
             font-feature-settings: 'clig' off, 'liga' off;
 
@@ -34,7 +35,16 @@ header {
             text-transform: uppercase;
         }
 
-        .buttonHeader {}
+        .buttonHeader {
+            position: absolute;
+            top: 250px;
+            left: 900px;
+
+            a {
+                color: $white;
+                text-decoration: none;
+            }
+        }
 
         .imgDivHeader {
             width: 540px;
@@ -45,6 +55,29 @@ header {
                 width: 100%;
                 height: 100%;
             }
+        }
+
+        .svgBtn {
+            position: absolute;
+            top: 250px;
+            left: 1052px
+        }
+
+        .headerParagraph {
+            position: absolute;
+            top: 100px;
+            left: 900px;
+            width: 350px;
+            color: $darkgrey;
+            font-feature-settings: 'clig' off, 'liga' off;
+
+            /* Body (M) */
+            font-family: Outfit;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 32px;
+            /* 145.455% */
         }
     }
 }

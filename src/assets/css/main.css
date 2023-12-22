@@ -1,3 +1,10 @@
+.button1 {
+  width: 153px;
+  height: 72px;
+  flex-shrink: 0;
+  background-color: #151515;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -5,6 +12,7 @@
 
 header .artGallery {
   display: flex;
+  position: relative;
 }
 header .artGallery .darkSide {
   width: 450px;
@@ -15,8 +23,8 @@ header .artGallery .darkSide {
 header .artGallery .artGalleryTitle {
   position: absolute;
   top: 140px;
-  left: 150px;
-  width: 514px;
+  left: 200px;
+  width: 390px;
   color: #fff;
   font-feature-settings: "clig" off, "liga" off;
   /* Heading (XL) */
@@ -28,6 +36,15 @@ header .artGallery .artGalleryTitle {
   /* 91.667% */
   text-transform: uppercase;
 }
+header .artGallery .buttonHeader {
+  position: absolute;
+  top: 250px;
+  left: 900px;
+}
+header .artGallery .buttonHeader a {
+  color: #fff;
+  text-decoration: none;
+}
 header .artGallery .imgDivHeader {
   width: 540px;
   height: 800px;
@@ -36,4 +53,24 @@ header .artGallery .imgDivHeader {
 header .artGallery .imgDivHeader img {
   width: 100%;
   height: 100%;
+}
+header .artGallery .svgBtn {
+  position: absolute;
+  top: 250px;
+  left: 1052px;
+}
+header .artGallery .headerParagraph {
+  position: absolute;
+  top: 100px;
+  left: 900px;
+  width: 350px;
+  color: #444444;
+  font-feature-settings: "clig" off, "liga" off;
+  /* Body (M) */
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  /* 145.455% */
 }/*# sourceMappingURL=main.css.map */
