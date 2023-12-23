@@ -81,3 +81,44 @@ header {
         }
     }
 }
+
+main {
+    .contaienr {
+        .dayAtGallery {
+            .firstLevel {
+                .firstLevel-textSide {
+
+                    .firstLevel-title {
+                        width: 350px;
+                        color: $almostblack;
+                        font-feature-settings: 'clig' off, 'liga' off;
+
+                        /* Heading (M) */
+                        font-family: Big Shoulders Display;
+                        font-size: 60px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 60px;
+                        /* 100% */
+                        text-transform: uppercase;
+                    }
+
+                    .firstLevel-paragraph {
+                        width: 350px;
+                        color: $darkgrey;
+                        font-feature-settings: 'clig' off, 'liga' off;
+
+                        /* Body (M) */
+                        font-family: Outfit;
+                        font-size: 22px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: 32px;
+                        /* 145.455% */
+                    }
+                }
+                
+            }
+        }
+    }
+}
