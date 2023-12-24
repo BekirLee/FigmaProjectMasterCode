@@ -5,6 +5,10 @@
     padding: 0px;
 }
 
+.container {
+    margin: 0 50px 0 50px;
+}
+
 header {
     .artGallery {
         display: flex;
@@ -83,15 +87,99 @@ header {
 }
 
 main {
-    .contaienr {
-        .dayAtGallery {
-            .firstLevel {
-                .firstLevel-textSide {
 
-                    .firstLevel-title {
+    // .contaienr {
+
+    .dayAtGallery {
+        margin-bottom: 150px;
+
+        // background-color: aqua;
+        .firstLevel {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 150px;
+            margin-bottom: 50px;
+
+            .firstLevel-textSide {
+
+                .firstLevel-title {
+                    width: 350px;
+                    color: $almostblack;
+                    font-feature-settings: 'clig' off, 'liga' off;
+
+                    /* Heading (M) */
+                    font-family: Big Shoulders Display;
+                    font-size: 60px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 60px;
+                    /* 100% */
+                    text-transform: uppercase;
+                }
+
+                .firstLevel-paragraph {
+                    width: 350px;
+                    color: $darkgrey;
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    margin-top: 40px;
+
+                    /* Body (M) */
+                    font-family: Outfit;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 32px;
+                    /* 145.455% */
+                }
+            }
+
+        }
+
+        .secondLevel {
+            display: flex;
+            justify-content: space-between;
+            // align-items: center  ;
+
+            .leftSidePhoto {
+                width: 635px;
+                height: 720px;
+                flex-shrink: 0;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .rightSidePhoto {
+                // padding: 60px;
+
+                .photoLevel {
+                    width: 445px;
+                    height: 313px;
+                    flex-shrink: 0;
+                    margin-bottom: 65px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .textLevel {
+                    width: 445px;
+                    height: 343px;
+                    flex-shrink: 0;
+                    background-color: $almostblack;
+                    text-align: left;
+
+                    .textLevel-title {
                         width: 350px;
-                        color: $almostblack;
+                        color: $white;
                         font-feature-settings: 'clig' off, 'liga' off;
+                        padding-top: 70px;
+                        padding-left: 50px;
 
                         /* Heading (M) */
                         font-family: Big Shoulders Display;
@@ -103,10 +191,12 @@ main {
                         text-transform: uppercase;
                     }
 
-                    .firstLevel-paragraph {
+                    .textLevel-paragraph {
                         width: 350px;
-                        color: $darkgrey;
+                        color: $white;
                         font-feature-settings: 'clig' off, 'liga' off;
+                        padding-top: 20px;
+                        padding-left: 50px;
 
                         /* Body (M) */
                         font-family: Outfit;
@@ -117,8 +207,45 @@ main {
                         /* 145.455% */
                     }
                 }
-                
             }
+        }
+    }
+
+    // }
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 244px;
+    flex-shrink: 0;
+    background-color: $almostblack;
+
+    .footerLogo {
+        width: 159.572px;
+        height: 58px;
+        flex-shrink: 0;
+    }
+
+    .footerParag {
+        width: 430px;
+        flex-shrink: 0;
+        color: $white;
+        font-family: Outfit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+        /* 155.556% */
+    }
+
+    .footerLinks {
+        i {
+            color: $white;
+            padding: 5px;
+            height: 20px;
+            flex-shrink: 0;
         }
     }
 }
