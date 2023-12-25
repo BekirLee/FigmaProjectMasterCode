@@ -1,0 +1,42 @@
+@media(max-width:823px) {
+    main {
+        .container {
+            .mapLocationSide {
+                .locationSideTitle {
+                    width: 223px;
+                    font-size: 55px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 50px;
+                    left: 5px;
+                }
+
+                .locationSideInfo {
+                    margin-left: 60%;
+
+                    h5 {
+                        width: 350px;
+                    }
+
+                    .locationFirstParag {
+                        p {
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: 28px;
+                        }
+
+                        .locationSecondParag {
+                            width: 398px;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: 28px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
