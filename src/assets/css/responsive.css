@@ -1,4 +1,226 @@
-@media (min-width: 820px) {
+.button1 {
+  width: 153px;
+  height: 72px;
+  flex-shrink: 0;
+  background-color: #151515;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  margin: 0 50px 0 50px;
+}
+
+header .artGallery {
+  display: flex;
+  position: relative;
+}
+header .artGallery .darkSide {
+  width: 450px;
+  height: 799px;
+  flex-shrink: 0;
+  background-color: #151515;
+}
+header .artGallery .artGalleryTitle {
+  position: absolute;
+  top: 140px;
+  left: 200px;
+  width: 390px;
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  /* Heading (XL) */
+  font-family: Big Shoulders Display;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  /* 91.667% */
+  text-transform: uppercase;
+}
+header .artGallery .buttonHeader {
+  position: absolute;
+  top: 250px;
+  left: 900px;
+}
+header .artGallery .buttonHeader a {
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  top: 22px;
+  left: 30px;
+}
+header .artGallery .buttonHeader .svgBtn {
+  position: absolute;
+  left: 150px;
+}
+header .artGallery .buttonHeader:hover {
+  background-color: #D5966C !important;
+  transition: 0.3s ease-in-out;
+}
+header .artGallery .buttonHeader:hover .svgBtn rect {
+  transition: 0.3s ease-in;
+  fill: #151515;
+}
+header .artGallery .imgDivHeader {
+  width: 540px;
+  height: 800px;
+  flex-shrink: 0;
+}
+header .artGallery .imgDivHeader img {
+  width: 100%;
+  height: 100%;
+}
+header .artGallery .headerParagraph {
+  position: absolute;
+  top: 100px;
+  left: 900px;
+  width: 350px;
+  color: #444444;
+  font-feature-settings: "clig" off, "liga" off;
+  /* Body (M) */
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  /* 145.455% */
+}
+
+main .dayAtGallery {
+  margin-bottom: 150px;
+}
+main .dayAtGallery .firstLevel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+main .dayAtGallery .firstLevel .firstLevel-textSide .firstLevel-title {
+  width: 350px;
+  color: #151515;
+  font-feature-settings: "clig" off, "liga" off;
+  /* Heading (M) */
+  font-family: Big Shoulders Display;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  /* 100% */
+  text-transform: uppercase;
+}
+main .dayAtGallery .firstLevel .firstLevel-textSide .firstLevel-paragraph {
+  width: 350px;
+  color: #444444;
+  font-feature-settings: "clig" off, "liga" off;
+  margin-top: 40px;
+  /* Body (M) */
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  /* 145.455% */
+}
+main .dayAtGallery .secondLevel {
+  display: flex;
+  justify-content: space-between;
+}
+main .dayAtGallery .secondLevel .leftSidePhoto {
+  width: 635px;
+  height: 720px;
+  flex-shrink: 0;
+}
+main .dayAtGallery .secondLevel .leftSidePhoto img {
+  width: 100%;
+  height: 100%;
+}
+main .dayAtGallery .secondLevel .rightSidePhoto .photoLevel {
+  width: 445px;
+  height: 313px;
+  flex-shrink: 0;
+  margin-bottom: 65px;
+}
+main .dayAtGallery .secondLevel .rightSidePhoto .photoLevel img {
+  width: 100%;
+  height: 100%;
+}
+main .dayAtGallery .secondLevel .rightSidePhoto .textLevel {
+  width: 445px;
+  height: 343px;
+  flex-shrink: 0;
+  background-color: #151515;
+  text-align: left;
+}
+main .dayAtGallery .secondLevel .rightSidePhoto .textLevel .textLevel-title {
+  width: 350px;
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  padding-top: 70px;
+  padding-left: 50px;
+  /* Heading (M) */
+  font-family: Big Shoulders Display;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  /* 100% */
+  text-transform: uppercase;
+}
+main .dayAtGallery .secondLevel .rightSidePhoto .textLevel .textLevel-paragraph {
+  width: 350px;
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  padding-top: 20px;
+  padding-left: 50px;
+  /* Body (M) */
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  /* 145.455% */
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 244px;
+  flex-shrink: 0;
+  background-color: #151515;
+}
+footer .footerLogo {
+  width: 159.572px;
+  height: 58px;
+  flex-shrink: 0;
+}
+footer .footerParag {
+  width: 430px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  /* 155.556% */
+}
+footer .footerLinks i {
+  color: #fff;
+  padding: 5px;
+  height: 20px;
+  flex-shrink: 0;
+}
+footer .footerLinks i:hover {
+  transition: 0.3s ease;
+  color: #D5966C !important;
+}
+
+@media (max-width: 819px) {
   header .artGalery .darkside {
     width: 0 !important;
   }
@@ -18,5 +240,36 @@
   header .artGalery .headerParagraph {
     top: 350px !important;
     left: 400px !important;
+  }
+  main .dayAtGallery .firstLevel .firstLevel-textSide .firstLevel-title {
+    width: 223px !important;
+  }
+  main .dayAtGallery .firstLevel .firstLevel-textSide .firstLevel-paragraph {
+    width: 223px !important;
+  }
+  main .dayAtGallery .firstLevel .firstLevel-photoSide {
+    width: 398px !important;
+    height: 400px !important;
+  }
+  main .dayAtGallery .secondLevel .leftSidePhoto {
+    width: 398px !important;
+    height: 720px !important;
+  }
+  main .dayAtGallery .secondLevel .rightSidePhoto .photoLevel {
+    width: 280px !important;
+    height: 313px !important;
+  }
+  main .dayAtGallery .secondLevel .rightSidePhoto .photoLevel img {
+    object-fit: cover !important;
+  }
+  main .dayAtGallery .secondLevel .rightSidePhoto .textLevel {
+    width: 280px !important;
+    height: 345px !important;
+  }
+  main .dayAtGallery .secondLevel .rightSidePhoto .textLevel .textLevel-title {
+    width: 223px !important;
+  }
+  main .dayAtGallery .secondLevel .rightSidePhoto .textLevel .textLevel-paragraph {
+    width: 223px !important;
   }
 }/*# sourceMappingURL=responsive.css.map */

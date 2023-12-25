@@ -1,4 +1,7 @@
-@media(min-width:820px) {
+@import './main.scss';
+
+@media(max-width:819px) {
+
     header {
         .artGalery {
             .darkside {
@@ -24,6 +27,58 @@
             .headerParagraph {
                 top: 350px !important;
                 left: 400px !important;
+            }
+        }
+    }
+
+    main {
+        .dayAtGallery {
+            .firstLevel {
+                .firstLevel-textSide {
+                    .firstLevel-title {
+                        width: 223px !important;
+                    }
+
+                    .firstLevel-paragraph {
+                        width: 223px !important;
+                    }
+                }
+
+                .firstLevel-photoSide {
+                    width: 398px !important;
+                    height: 400px !important;
+                }
+            }
+
+            .secondLevel {
+                .leftSidePhoto {
+                    width: 398px !important;
+                    height: 720px !important;
+                }
+
+                .rightSidePhoto {
+                    .photoLevel {
+                        width: 280px !important;
+                        height: 313px !important;
+
+                        img {
+                            object-fit: cover !important;
+                        }
+                    }
+
+                    .textLevel {
+                        width: 280px !important;
+                        height: 345px !important;
+
+                        .textLevel-title {
+                            width: 223px !important;
+                        }
+
+                        .textLevel-paragraph {
+                            width: 223px !important;
+                        }
+                    }
+                }
             }
         }
     }
