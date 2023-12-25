@@ -1,0 +1,22 @@
+@media (min-width: 820px) {
+  header .artGalery .darkside {
+    width: 0 !important;
+  }
+  header .artGalery .artGalleryTitle {
+    top: 140px !important;
+    left: 400px !important;
+  }
+  header .artGalery .buttonHeader {
+    top: 500px !important;
+    left: 400px !important;
+  }
+  header .artGalery .imgDivHeader {
+    width: 437px;
+    height: 700px;
+    flex-shrink: 0;
+  }
+  header .artGalery .headerParagraph {
+    top: 350px !important;
+    left: 400px !important;
+  }
+}/*# sourceMappingURL=responsive.css.map */
