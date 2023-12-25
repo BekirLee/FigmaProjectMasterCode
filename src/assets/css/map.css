@@ -10,6 +10,15 @@
 }
 .mapPhoto .mapButton {
   position: absolute;
+  top: 50px;
+  left: 200px;
+  color: #fff;
+  text-align: center;
+}
+.mapPhoto .mapButton img {
+  left: -56px;
+  rotate: 180deg;
+  position: absolute;
 }
 .mapPhoto .locationIcon {
   position: absolute;

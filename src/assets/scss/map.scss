@@ -6,6 +6,21 @@
 
     .mapButton {
         position: absolute;
+        top: 50px;
+        left: 200px;
+        color: $white;
+        text-align: center;
+        // margin-top: 10px;
+
+        p {
+            // padding: 10px;
+        }
+
+        img {
+            left: -56px;
+            rotate: 180deg;
+            position: absolute;
+        }
     }
 
     .locationIcon {
