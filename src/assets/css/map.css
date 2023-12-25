@@ -22,17 +22,27 @@
 }
 .mapPhoto .mainMap-photo img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.mapLocationSide {
-  display: flex;
-  justify-content: space-between;
-  width: 1440px;
-  height: 548px;
-  flex-shrink: 0;
+main {
   background-color: #151515;
 }
-.mapLocationSide .locationSidetitle {
+main .mapLocationSide {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  gap: 90px;
+  height: 348px;
+  flex-shrink: 0;
+  padding: 104px 200px 128px 80px;
+}
+main .mapLocationSide .locationSideTitle {
+  position: absolute;
+  left: 32px;
+  top: 110px;
+  margin-right: 30px;
   width: 350px;
   color: #fff;
   font-feature-settings: "clig" off, "liga" off;
@@ -45,7 +55,10 @@
   /* 100% */
   text-transform: uppercase;
 }
-.mapLocationSide .mapLocationInfo h5 {
+main .mapLocationSide .locationSideInfo {
+  margin-left: 50%;
+}
+main .mapLocationSide .locationSideInfo h5 {
   color: #D5966C;
   font-feature-settings: "clig" off, "liga" off;
   /* Heading (S) */
@@ -57,8 +70,10 @@
   /* 100% */
   text-transform: uppercase;
 }
-.mapLocationSide .mapLocationInfo .locationFirstParag {
-  width: 445px;
+main .mapLocationSide .locationSideInfo .locationFirstParag {
+  width: 260px;
+}
+main .mapLocationSide .locationSideInfo .locationFirstParag p {
   color: #fff;
   font-feature-settings: "clig" off, "liga" off;
   /* Body (M) */
@@ -68,8 +83,10 @@
   font-weight: 300;
   line-height: 32px;
   /* 145.455% */
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
-.mapLocationSide .mapLocationInfo .locationSecondParag {
+main .mapLocationSide .locationSideInfo .locationSecondParag {
   width: 540px;
   color: #fff;
   font-feature-settings: "clig" off, "liga" off;
@@ -80,4 +97,36 @@
   font-weight: 300;
   line-height: 32px;
   /* 145.455% */
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 244px;
+  flex-shrink: 0;
+  background-color: #D5966C !important;
+}
+footer .footerLogo {
+  width: 159.572px;
+  height: 58px;
+  flex-shrink: 0;
+}
+footer .footerParag {
+  color: #151515 !important;
+  width: 430px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  /* 155.556% */
+}
+footer .footerLinks i {
+  color: #151515 !important;
+  padding: 5px;
+  height: 20px;
+  flex-shrink: 0;
 }/*# sourceMappingURL=map.css.map */

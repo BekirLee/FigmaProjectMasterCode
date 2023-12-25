@@ -2,6 +2,7 @@
 
 .mapPhoto {
     position: relative;
+    // margin-bottom: 100px;
 
     .mapButton {
         position: absolute;
@@ -19,74 +20,131 @@
 
         img {
             width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
     }
 }
 
-.mapLocationSide {
-    display: flex;
-    justify-content: space-between;
-    width: 1440px;
-    height: 548px;
-    flex-shrink: 0;
+main {
+
     background-color: $almostblack;
 
-    .locationSidetitle {
-        width: 350px;
-        color: $white;
-        font-feature-settings: 'clig' off, 'liga' off;
+    .mapLocationSide {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        gap: 90px;
+        height: 348px;
+        flex-shrink: 0;
+        padding: 104px 200px 128px 80px;
 
-        /* Heading (L) */
-        font-family: Big Shoulders Display;
-        font-size: 70px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 70px;
-        /* 100% */
-        text-transform: uppercase;
-    }
-
-    .mapLocationInfo {
-        h5 {
-            color: $gold;
+        .locationSideTitle {
+            position: absolute;
+            left: 32px;
+            top: 110px;
+            // 
+            margin-right: 30px;
+            width: 350px;
+            color: $white;
             font-feature-settings: 'clig' off, 'liga' off;
-
-            /* Heading (S) */
+            /* Heading (L) */
             font-family: Big Shoulders Display;
-            font-size: 36px;
+            font-size: 70px;
             font-style: normal;
             font-weight: 900;
-            line-height: 36px;
+            line-height: 70px;
             /* 100% */
             text-transform: uppercase;
         }
 
-        .locationFirstParag {
-            width: 445px;
-            color: $white;
-            font-feature-settings: 'clig' off, 'liga' off;
+        .locationSideInfo {
+            margin-left: 50%;
 
-            /* Body (M) */
-            font-family: Outfit;
-            font-size: 22px;
-            font-style: normal;
-            font-weight: 300;
-            line-height: 32px;
-            /* 145.455% */
+            h5 {
+                color: $gold;
+                font-feature-settings: 'clig' off, 'liga' off;
+
+                /* Heading (S) */
+                font-family: Big Shoulders Display;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 36px;
+                /* 100% */
+                text-transform: uppercase;
+            }
+
+            .locationFirstParag {
+                width: 260px;
+
+                p {
+
+                    color: $white;
+                    font-feature-settings: 'clig' off, 'liga' off;
+
+                    /* Body (M) */
+                    font-family: Outfit;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 32px;
+                    /* 145.455% */
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                }
+            }
+
+            .locationSecondParag {
+                width: 540px;
+                color: $white;
+                font-feature-settings: 'clig' off, 'liga' off;
+
+                /* Body (M) */
+                font-family: Outfit;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 32px;
+                /* 145.455% */
+            }
         }
+    }
+}
 
-        .locationSecondParag {
-            width: 540px;
-            color: $white;
-            font-feature-settings: 'clig' off, 'liga' off;
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 244px;
+    flex-shrink: 0;
+    background-color: $gold !important;
 
-            /* Body (M) */
-            font-family: Outfit;
-            font-size: 22px;
-            font-style: normal;
-            font-weight: 300;
-            line-height: 32px;
-            /* 145.455% */
+    .footerLogo {
+        width: 159.572px;
+        height: 58px;
+        flex-shrink: 0;
+    }
+
+    .footerParag {
+        color: $almostblack !important;
+        width: 430px;
+        flex-shrink: 0;
+        color: $white;
+        font-family: Outfit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+        /* 155.556% */
+    }
+
+    .footerLinks {
+        i {
+            color: $almostblack !important;
+            padding: 5px;
+            height: 20px;
+            flex-shrink: 0;
         }
     }
 }
