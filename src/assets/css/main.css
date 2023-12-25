@@ -186,19 +186,26 @@ main .dayAtGallery .secondLevel .rightSidePhoto .textLevel .textLevel-paragraph 
 }
 
 footer {
+  background-color: #151515;
+  height: 244px;
+}
+footer .footerMainDiv {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 244px;
   flex-shrink: 0;
-  background-color: #151515;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  display: flex;
+  position: relative;
 }
-footer .footerLogo {
+footer .footerMainDiv .footerLogo {
   width: 159.572px;
   height: 58px;
   flex-shrink: 0;
 }
-footer .footerParag {
+footer .footerMainDiv .footerParag {
   width: 430px;
   flex-shrink: 0;
   color: #fff;
@@ -209,13 +216,13 @@ footer .footerParag {
   line-height: 28px;
   /* 155.556% */
 }
-footer .footerLinks i {
+footer .footerMainDiv .footerLinks i {
   color: #fff;
   padding: 5px;
   height: 20px;
   flex-shrink: 0;
 }
-footer .footerLinks i:hover {
+footer .footerMainDiv .footerLinks i:hover {
   transition: 0.3s ease;
   color: #D5966C !important;
 }/*# sourceMappingURL=main.css.map */

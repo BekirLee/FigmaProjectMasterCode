@@ -125,19 +125,26 @@ main .mapLocationSide .locationSideInfo .locationSecondParag {
 }
 
 footer {
+  flex-shrink: 0;
+  background-color: #D5966C !important;
+  height: 244px;
+}
+footer .footerMainDiv {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 244px;
-  flex-shrink: 0;
-  background-color: #D5966C !important;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  display: flex;
+  position: relative;
 }
-footer .footerLogo {
+footer .footerMainDiv .footerLogo {
   width: 159.572px;
   height: 58px;
   flex-shrink: 0;
 }
-footer .footerParag {
+footer .footerMainDiv .footerParag {
   color: #151515 !important;
   width: 430px;
   flex-shrink: 0;
@@ -149,13 +156,13 @@ footer .footerParag {
   line-height: 28px;
   /* 155.556% */
 }
-footer .footerLinks i {
+footer .footerMainDiv .footerLinks i {
   color: #151515 !important;
   padding: 5px;
   height: 20px;
   flex-shrink: 0;
 }
-footer .footerLinks i:hover {
+footer .footerMainDiv .footerLinks i:hover {
   transition: 0.3s ease;
   color: #fff !important;
 }/*# sourceMappingURL=map.css.map */

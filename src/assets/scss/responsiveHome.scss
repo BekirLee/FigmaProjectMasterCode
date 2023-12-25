@@ -96,3 +96,52 @@
         }
     }
 }
+
+@media(max-width:376px) {
+    header {
+        .artGallery {
+            .imgDivHeader {
+                width: 375px;
+                height: 240px;
+
+                img {
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+
+    main {
+        margin-top: 410px;
+
+        .container {
+            .dayAtGallery {
+                .firstLevel {
+                    display: block;
+
+                    .firstLevel-photoSide {
+                        width: 100%;
+                        height: 320px;
+
+                        img {
+                            object-fit: cover;
+                        }
+                    }
+                }
+
+                .secondLevel {
+                    display: block;
+
+                    .leftSidePhoto {
+                        width: 100%;
+                        height: 480px;
+                    }
+
+                    .rightSidePhoto {
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
