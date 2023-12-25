@@ -1,16 +1,21 @@
-@import './main.scss';
+@import './root.scss';
 
-@media(max-width:819px) {
+
+@media(max-width:823px) {
 
     header {
-        .artGalery {
-            .darkside {
+        // .container {
+
+        .artGallery {
+            .darkSide {
                 width: 0 !important;
+                height: 0 !important;
             }
 
             .artGalleryTitle {
                 top: 140px !important;
                 left: 400px !important;
+                color: $almostblack;
             }
 
             .buttonHeader {
@@ -29,6 +34,8 @@
                 left: 400px !important;
             }
         }
+
+        // }
     }
 
     main {
@@ -47,6 +54,12 @@
                 .firstLevel-photoSide {
                     width: 398px !important;
                     height: 400px !important;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
                 }
             }
 

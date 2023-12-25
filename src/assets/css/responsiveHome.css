@@ -5,7 +5,7 @@
   background-color: #151515;
 }
 
-@media (min-width: 818px) {
+@media (max-width: 823px) {
   header .artGallery .darkSide {
     width: 0 !important;
     height: 0 !important;
@@ -64,4 +64,4 @@
   main .dayAtGallery .secondLevel .rightSidePhoto .textLevel .textLevel-paragraph {
     width: 223px !important;
   }
-}/*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=responsiveHome.css.map */
