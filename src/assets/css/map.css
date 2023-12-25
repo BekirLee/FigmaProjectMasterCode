@@ -10,10 +10,22 @@
 }
 .mapPhoto .mapButton {
   position: absolute;
-  top: 50px;
   left: 200px;
   color: #fff;
   text-align: center;
+}
+.mapPhoto .mapButton p {
+  position: absolute;
+  top: 13px;
+  left: 4px;
+  padding: 10px;
+}
+.mapPhoto .mapButton p a {
+  color: #fff;
+  text-decoration: none;
+}
+.mapPhoto .mapButton p a:hover .button1 {
+  background-color: #D5966C !important;
 }
 .mapPhoto .mapButton img {
   left: -56px;
@@ -23,16 +35,16 @@
 .mapPhoto .locationIcon {
   position: absolute;
   top: 200px;
+  left: 50%;
 }
 .mapPhoto .mainMap-photo {
   width: 100%;
-  height: 685px;
+  height: 540px;
   flex-shrink: 0;
 }
 .mapPhoto .mainMap-photo img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
 main {
