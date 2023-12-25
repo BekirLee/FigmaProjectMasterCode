@@ -32,8 +32,9 @@
   background-color: #D5966C !important;
   transition: 0.3s ease-in;
 }
-.mapPhoto .mapButton:hover .rotatedİcon {
-  fill: #151515 !important;
+.mapPhoto .mapButton:hover .rotatedİcon rect {
+  transition: 0.3s ease-in;
+  fill: #151515;
 }
 .mapPhoto .locationIcon {
   position: absolute;
@@ -153,4 +154,8 @@ footer .footerLinks i {
   padding: 5px;
   height: 20px;
   flex-shrink: 0;
+}
+footer .footerLinks i:hover {
+  transition: 0.3s ease;
+  color: #fff !important;
 }/*# sourceMappingURL=map.css.map */

@@ -47,6 +47,27 @@ header {
             a {
                 color: $white;
                 text-decoration: none;
+                position: absolute;
+                top: 22px;
+                left: 30px;
+            }
+
+            .svgBtn {
+                position: absolute;
+                // top: 250px;
+                left: 150px
+            }
+        }
+
+        .buttonHeader:hover {
+            background-color: $gold !important;
+            transition: .3s ease-in-out;
+
+            .svgBtn {
+                rect {
+                    transition: .3s ease-in;
+                    fill: $almostblack;
+                }
             }
         }
 
@@ -61,11 +82,6 @@ header {
             }
         }
 
-        .svgBtn {
-            position: absolute;
-            top: 250px;
-            left: 1052px
-        }
 
         .headerParagraph {
             position: absolute;
@@ -246,6 +262,11 @@ footer {
             padding: 5px;
             height: 20px;
             flex-shrink: 0;
+
+            &:hover {
+                transition: .3s ease;
+                color: $gold !important;
+            }
         }
     }
 }

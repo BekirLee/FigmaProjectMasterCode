@@ -33,8 +33,10 @@
         transition: .3s ease-in;
 
         .rotatedİcon {
-            // background-color: aqua !important;
-            fill: $almostblack !important;
+            rect {
+                transition: .3s ease-in;
+                fill: $almostblack;
+            }
         }
 
     }
@@ -181,6 +183,12 @@ footer {
             padding: 5px;
             height: 20px;
             flex-shrink: 0;
+
+            &:hover {
+                transition: .3s ease;
+                color: $white !important;
+            }
         }
+
     }
 }
