@@ -35,8 +35,8 @@
     width: 223px !important;
   }
   main .dayAtGallery .firstLevel .firstLevel-photoSide {
-    width: 398px !important;
-    height: 400px !important;
+    width: 398px;
+    height: 400px;
   }
   main .dayAtGallery .firstLevel .firstLevel-photoSide img {
     width: 100%;
@@ -67,11 +67,38 @@
 }
 @media (max-width: 376px) {
   header .artGallery .imgDivHeader {
-    width: 375px;
+    width: 335px;
     height: 240px;
   }
   header .artGallery .imgDivHeader img {
     object-fit: cover;
+  }
+  header .artGallery .artGalleryTitle {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 55px;
+    top: 270px !important;
+    left: 35px !important;
+  }
+  header .artGallery .buttonHeader {
+    top: 530px !important;
+    left: 25px !important;
+  }
+  header .artGallery .buttonHeader a {
+    font-size: 18px;
+    /* font-style: normal; */
+    font-weight: 800;
+    line-height: normal;
+    /* letter-spacing: 3.636px;*/
+  }
+  header .artGallery .headerParagraph {
+    font-size: 18px;
+    top: 400px !important;
+    left: 25px !important;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
   }
   main {
     margin-top: 410px;
@@ -79,9 +106,15 @@
   main .container .dayAtGallery .firstLevel {
     display: block;
   }
+  main .container .dayAtGallery .firstLevel .firstLevel-textSide .firstLevel-title {
+    width: 100% !important;
+  }
+  main .container .dayAtGallery .firstLevel .firstLevel-textSide .firstLevel-paragraph {
+    width: 100% !important;
+  }
   main .container .dayAtGallery .firstLevel .firstLevel-photoSide {
-    width: 100%;
-    height: 320px;
+    width: 100% !important;
+    height: 210px !important;
   }
   main .container .dayAtGallery .firstLevel .firstLevel-photoSide img {
     object-fit: cover;
@@ -90,10 +123,22 @@
     display: block;
   }
   main .container .dayAtGallery .secondLevel .leftSidePhoto {
-    width: 100%;
-    height: 480px;
+    width: 100% !important;
+    height: 480px !important;
   }
   main .container .dayAtGallery .secondLevel .rightSidePhoto {
     margin-top: 40px;
+  }
+  main .container .dayAtGallery .secondLevel .rightSidePhoto .photoLevel {
+    width: 100% !important;
+    height: 200px !important;
+  }
+  main .container .dayAtGallery .secondLevel .rightSidePhoto .textLevel {
+    height: 350px !important;
+    width: 100% !important;
+  }
+  main .container .dayAtGallery .secondLevel .rightSidePhoto .textLevel p {
+    width: 177px !important;
+    padding: 15px !important;
   }
 }/*# sourceMappingURL=responsiveHome.css.map */
