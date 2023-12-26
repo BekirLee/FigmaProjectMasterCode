@@ -40,3 +40,83 @@
         }
     }
 }
+
+
+@media(max-width:376px) {
+    header {
+        .mapPhoto {
+            .mapButton {
+
+                position: absolute;
+                color: #fff;
+                text-align: center;
+                text-decoration: none;
+                left: 55px;
+            }
+
+            .mainMap-photo {
+                width: 100%;
+
+                .mainPhoto {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+
+    main {
+        height: 540px;
+
+        .mapLocationSide {
+            display: block;
+            height: 100%;
+            padding: 0;
+
+            .locationSideTitle {
+                position: relative;
+                left: 0;
+                top: 0;
+                padding: 40px 0 0 0;
+            }
+
+            .locationSideInfo {
+                width: 100%;
+                margin-left: 0 !important;
+
+                h5 {
+                    margin-top: 40px;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 32px;
+                }
+
+                .locationFirstParag {
+                    .locationSecondParag {
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        height: 480px;
+
+        .footerMainDiv {
+            display: block;
+            padding: 30px;
+
+            .footerParag {
+                margin-top: 40px;
+                width: 311px;
+            }
+
+            .footerLinks {
+                margin-top: 40px;
+            }
+        }
+    }
+}

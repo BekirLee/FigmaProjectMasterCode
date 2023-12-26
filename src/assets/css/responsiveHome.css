@@ -67,7 +67,7 @@
 }
 @media (max-width: 376px) {
   header .artGallery .imgDivHeader {
-    width: 335px;
+    width: 100%;
     height: 240px;
   }
   header .artGallery .imgDivHeader img {
@@ -140,5 +140,19 @@
   main .container .dayAtGallery .secondLevel .rightSidePhoto .textLevel p {
     width: 177px !important;
     padding: 15px !important;
+  }
+  footer {
+    height: 440px;
+  }
+  footer .footerMainDiv {
+    display: block;
+    padding: 30px;
+  }
+  footer .footerMainDiv .footerParag {
+    margin-top: 40px;
+    width: 311px;
+  }
+  footer .footerMainDiv .footerLinks {
+    margin-top: 40px;
   }
 }/*# sourceMappingURL=responsiveHome.css.map */

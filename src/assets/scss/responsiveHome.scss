@@ -101,7 +101,7 @@
     header {
         .artGallery {
             .imgDivHeader {
-                width: 335px;
+                width: 100%;
                 height: 240px;
 
                 img {
@@ -205,9 +205,21 @@
         }
     }
 
-    footer{
-        .footerMainDiv{
-            
+    footer {
+        height: 440px;
+
+        .footerMainDiv {
+            display: block;
+            padding: 30px;
+
+            .footerParag {
+                margin-top: 40px;
+                width: 311px;
+            }
+
+            .footerLinks {
+                margin-top: 40px;
+            }
         }
     }
 }
